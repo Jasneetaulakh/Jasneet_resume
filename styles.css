@@ -1,0 +1,29 @@
+body {
+	width: 80%;
+	margin: auto;
+	font-family: arial, helvetica;
+}
+
+#container {
+	display: grid;
+}
+
+h1 {
+	grid-column: 1/13;
+	grid-row: 1;
+	background-color: aliceblue;
+	text-align: center;
+}
+
+h2 {
+	grid-column: 1/13;
+	grid-row: 1;
+	background-color: aliceblue;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: red;
+}
+
